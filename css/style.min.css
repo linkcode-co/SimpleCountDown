@@ -1,0 +1,82 @@
+.text-mid-line {
+	width: 100%;
+	text-align: center;
+	border-bottom: 3px solid #FDB92E;
+	line-height: .1em
+}
+
+.text-mid-line span {
+	background: #fff;
+	padding: 10px
+}
+
+.border-primary-bottom-hl-1 {
+	border-bottom: 1px solid #FDB92E!important
+}
+
+.border-primary-bottom-hl-2 {
+	border-bottom: 2px solid #FDB92E!important
+}
+
+.border-primary-bottom-hl-3 {
+	border-bottom: 3px solid #FDB92E!important
+}
+
+.border-light-bottom-h-1 {
+	border-bottom: 1px solid #f8f9fa!important
+}
+
+.border-light-bottom-h-2 {
+	border-bottom: 2px solid #f8f9fa!important
+}
+
+.border-light-bottom-h-3 {
+	border-bottom: 3px solid #f8f9fa!important
+}
+
+.bg-gradient-primary-gradient {
+	background: #005aa2;
+	background: linear-gradient(180deg,#2b5ea1 52%,rgba(255,255,255,0) 100%)
+}
+
+::-webkit-scrollbar {
+	width: 1rem;
+	border-radius: 10px
+}
+
+body {
+	overflow-x: hidden;
+    font-family: 'Fredoka One',cursive;
+    
+	height: 100vh
+}
+@font-face{
+    font-family: "Fredoka One";
+    src: url('../fonts/FredokaOne-Regular.ttf');    
+}
+
+body {
+	background-image: url('Que-filo.png')
+}
+
+.font-consolas {
+	font-family: Consolas,monaco,monospace;
+	font-style: normal;
+	font-variant: normal
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	border: 1px solid #FDB92E;
+	width: 1.3rem
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 100px;
+	background-color: #FDB92E;
+	height: 50px
+}
+
+.h-100-forced {
+	height: 100vh!important
+}

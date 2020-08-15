@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-co">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Maestro longaniza</title>
+
+    <link rel="icon" href="favicon.ico" type="ico" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.min.css" type="text/css" media="all" />
+
+
+
+</head>
+
+<body class="bg-que-filo">
+    <div class="container h-100-forced text-center py-4">
+        <div class="row h-100 justify-content-center">
+            <div class="col-12 my-auto text-center">
+                <div class="col-12">
+                    <img class="align-items-center" src="logo_500X500.png" alt="Maestro longaniza"
+                        style="width: 40vh; height: 40vh;">
+                </div>
+                <div class="col-12 col-md-8 bg-danger card text-center mx-auto">
+                    <div id="timer" class="timer">
+                        <!--  Timer Component  -->
+                        <Timer 
+                        starttime="Aug 10, 2020 15:37:25" 
+                        endtime="Aug 22, 2020 00:00:00" trans='{  
+                             "day":"Dias",
+                             "hours":"Horas",
+                             "minutes":"Minutos",
+                             "seconds":"Segundos",
+                             "expired":"Ya estamos en linea.",
+                             "running":"Eperanos.",
+                             "upcoming":"¡Ya casi!",
+                             "status": {
+                                "expired":"Expired",
+                                "running":"Running",
+                                "upcoming":"Future"
+                               }}'>
+                        </Timer>
+                        <!--  End! Timer Component  -->
+                    </div>
+                </div>
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>
